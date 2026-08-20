@@ -46,8 +46,9 @@ prompt.
 
 ```
 <song-slug>/
-├── lyrics.txt      # paste-ready for Lyria — the session's words, verbatim
-└── parameters.md   # title, summary, sound instructions, bpm, length, seed
+├── lyrics.txt            # paste-ready for Lyria — the session's words, verbatim
+├── parameters.md         # title, summary, sound instructions, bpm, length, seed
+└── session.public.jsonl  # the transcript that produced it
 ```
 
 Only markdown *structure* is normalized — section labels become `[Verse 1]`
@@ -58,12 +59,27 @@ exists so later sessions can be shown what already exists.
 Some early folders predate the current format and use `lyrics.md` or a separate
 `sound.md`. They're left as they are, on purpose.
 
-**Not committed:** rendered audio (regenerate it from `lyrics.txt` +
-`parameters.md`) and raw session logs. The reasoning for excluding the logs is
-written out in [`.gitignore`](.gitignore) — briefly, they're the real
-provenance and it's a genuine loss, but a session log is an uncontrolled
-capture surface and "a grep found nothing" isn't a guarantee worth publishing
-on.
+### Provenance
+
+`session.public.jsonl` is the actual exchange: the exact prompt the session
+was given, and what it sent back. It's what makes the premise checkable rather
+than just asserted — you can read the prompt and confirm nobody suggested
+whale falls or cave handprints.
+
+It is a filtered extract, not the raw log. Raw Claude session logs are an
+uncontrolled capture surface — a few of these are full Claude Code sessions
+carrying file contents and machine state from unrelated work — so the extract
+is built from an **allowlist**: each message keeps `role`, `model`, and `text`,
+and nothing else exists in the file. A field added by some future version is
+absent by construction rather than leaked. The filter also refuses any session
+that made tool calls, on the grounds that a bare song session makes none.
+
+Three songs therefore have no transcript here (*Eight Minutes*, *Two Mile
+Down*, *Liner Notes*) — they came from full sessions and were correctly
+refused. `thinking` blocks are excluded by default.
+
+**Also not committed:** rendered audio — regenerate it from `lyrics.txt` +
+`parameters.md`.
 
 ## The songs
 
