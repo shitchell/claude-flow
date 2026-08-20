@@ -7,3 +7,17 @@
 **BPM:** 104
 **Length:** 2:55
 **Seed:** (open again)
+
+## Provenance note (2026-08-20)
+
+Not a bare session, and not fully unprompted either — the honest exception
+in the archive.
+
+The subject (hydrothermal vents) was the model's own, chosen from the
+identical neutral prompt, and first written as *The Sun Is a Rumor*. The
+model then **offered** a sea-shanty variant of the same facts unprompted,
+and the human said yes. So the genre here was the model's idea but the
+human's go-ahead, which is a collaboration rather than an autonomous
+choice. Recorded rather than quietly filed alongside the others.
+
+See `session.public.jsonl` for the exchange.

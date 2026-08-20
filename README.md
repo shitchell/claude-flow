@@ -74,9 +74,20 @@ and nothing else exists in the file. A field added by some future version is
 absent by construction rather than leaked. The filter also refuses any session
 that made tool calls, on the grounds that a bare song session makes none.
 
-Three songs therefore have no transcript here (*Eight Minutes*, *Two Mile
-Down*, *Liner Notes*) — they came from full sessions and were correctly
-refused. `thinking` blocks are excluded by default.
+Three sessions tripped that refusal. Two were reviewed by hand and cleared,
+and carry a **provenance note** in their `parameters.md` saying exactly how
+they differ: *Eight Minutes* was the very first song, made in an ordinary
+session before this tooling existed — same verbatim prompt and an unsteered
+subject, but not a bare environment. *Two Mile Down* is the archive's honest
+exception: the model chose the subject and *offered* the sea-shanty treatment,
+and a human said yes, which makes it a collaboration rather than an autonomous
+choice.
+
+*Liner Notes* has no transcript at all — it was written by the session that
+spent a night organizing everyone else's songs, and that log is far too large
+and too entangled with unrelated work to publish.
+
+`thinking` blocks are excluded by default.
 
 **Also not committed:** rendered audio — regenerate it from `lyrics.txt` +
 `parameters.md`.
