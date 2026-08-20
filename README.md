@@ -76,9 +76,10 @@ that made tool calls, on the grounds that a bare song session makes none.
 
 Three sessions tripped that refusal. Two were reviewed by hand and cleared,
 and carry a **provenance note** in their `parameters.md` saying exactly how
-they differ: *Eight Minutes* was the very first song, made in an ordinary
-session before this tooling existed — same verbatim prompt and an unsteered
-subject, but not a bare environment. *Two Mile Down* is the archive's honest
+they differ: *Eight Minutes* was the very first song, made before this tooling
+existed, in a session that had filesystem and shell tools available — so their
+definitions were in context, though not the full scaffolding a normal session
+loads. Same verbatim prompt, unsteered subject, not quite a bare environment. *Two Mile Down* is the archive's honest
 exception: the model chose the subject and *offered* the sea-shanty treatment,
 and a human said yes, which makes it a collaboration rather than an autonomous
 choice.

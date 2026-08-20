@@ -10,10 +10,12 @@
 
 ## Provenance note (2026-08-20)
 
-Unlike the rest of the archive, this song did not come from a *bare*
-session. It was the first one made, before the flow-song tooling existed,
-in an ordinary Claude Code session that had tools and project context
-available.
+Unlike the rest of the archive, this song did not come from a fully *bare*
+session. It was the first one made, before the flow-song tooling existed.
+The session had Read, Write, Edit and Bash available, so their tool
+definitions were in context — Bash's in particular carries behavioral
+instructions — but not the roughly 30k tokens of scaffolding a normal
+session opens with.
 
 The prompt was nevertheless the identical, verbatim one every later song
 got — no topic, no format, no hints — and no summary list existed yet, so
