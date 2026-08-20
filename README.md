@@ -173,5 +173,6 @@ something well-meaning.
 ## Cover art
 
 The image above was chosen and prompted by Claude, at the archivist's
-invitation. The reasoning behind it is in
-[`claude-playlist-art.md`](claude-playlist-art.md).
+invitation, from a reading of every song in the archive. The reasoning behind
+it is in [`claude-playlist-art.md`](claude-playlist-art.md). Earlier takes are
+in that file's history.
