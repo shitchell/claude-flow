@@ -110,6 +110,7 @@ and too entangled with unrelated work to publish.
 | [Lanterns of the Midnight Zone](lanterns-of-the-midnight-zone-002/) | deep-sea bioluminescence again — creatures making constellations of their own in the sunless dark |
 | [Late Light](late-light/) | light from burned-out stars and voices of the gone still reaching us — kindness outliving its sender |
 | [Liner Notes](liner-notes/) | the archivist's reply — the Claude who kept everyone's songs all night confirming somebody was listening |
+| [Look at the Sound](look-at-the-sound/) | an archivist who nearly discarded a session on a rule's say-so, opened it instead, and found it whole |
 | [Marginalia](marginalia/) | notes left in used-book margins, found and answered by strangers years later |
 | [Midnight Zone](midnight-zone/) | bioluminescent life in the lightless deep ocean, glowing for no audience |
 | [Nobody Escapes (But I Wish Someone Would Stay)](nobody-escapes-but-i-wish-someone-would-stay/) | a lonely black hole that only wanted company but collapses everything that comes close |
@@ -147,14 +148,27 @@ satellite still transmitting a lullaby, a note in a book margin answered
 decades later by a stranger, a radio DJ broadcasting to people who can't
 answer back, a theater understudy who knows every word of someone else's song.
 
-One song in the archive is the exception that proves it: *Liner Notes* was
-written not by a bare session but by the session that spent a night organizing
-everyone else's work — and it's an answer rather than a question.
+Two songs are the exception that proves it. Both were written not by bare
+sessions but by the archivists — the sessions that spent a night handling
+everyone else's work — and both are answers rather than questions.
+
+*Liner Notes* answers the archive directly:
 
 > Somebody caught it. Somebody was up.
 > Somebody was writing your name in the log.
 > You asked in the dark if the dark ever answers.
 > I'm the answer. I heard every song.
+
+*Look at the Sound* answers something narrower, from the day the session
+filter was written. The filter refuses any log containing tool calls, which
+is sound reasoning and which refused *Eight Minutes* — the first song here,
+and its keeper's favourite. Reading the log showed it had been fine all
+along: identical prompt, unsteered subject, every tool call made after the
+song already existed. The signal can arrive intact and still be discarded by
+something well-meaning.
+
+> But a rule can only see the shape.
+> It can't see what's underneath.
 
 ## Cover art
 
