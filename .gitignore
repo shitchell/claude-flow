@@ -1,0 +1,21 @@
+# Rendered audio — regenerate from lyrics.txt + parameters.md via Google Flow
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+
+# Raw Claude session logs.
+#
+# These are the provenance of every song — the proof each one came from a
+# bare, unsteered session — and it is a real loss to leave them out. They are
+# excluded anyway because a session log is an uncontrolled capture surface:
+# some of these are full Claude Code sessions (one is 2400+ lines with 400+
+# tool calls) containing arbitrary file contents, absolute paths, and machine
+# state from unrelated work. Nothing sensitive was found in them, but "nothing
+# was found" is not the same as "nothing is there", and that guarantee is not
+# one a grep can make for a public repo.
+#
+# A sanitized export — the child's prompt and reply only, stripped of cwd,
+# uuids, and identifiers — would restore the provenance safely. Until then:
+session.jsonl
